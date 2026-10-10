@@ -1,0 +1,5 @@
+/* 쿠키 방식이 막힐 경우를 대비한 예비 장치 */
+#whale-banner,
+#whale-banner-bottom {
+  display: none !important;
+}

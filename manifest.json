@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "네이버 웨일 배너 숨기기",
+  "version": "1.0",
+  "description": "네이버 메인의 웨일 브라우저 설치 안내 배너(상단/하단)를 숨깁니다.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.naver.com/*"],
+      "js": ["hide.js"],
+      "css": ["hide.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
